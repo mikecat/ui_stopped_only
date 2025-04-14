@@ -4,6 +4,7 @@ OPTIONS= \
 	/optimize+ \
 	/warn:4 \
 	/codepage:65001 \
+	/win32icon:stop_ui.ico \
 	/reference:TrainCrewInput.dll
 
 SOURCES= \

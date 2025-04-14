@@ -1,4 +1,5 @@
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 using TrainCrew;
 
@@ -14,6 +15,7 @@ class UIStoppedOnly: Form
 	private UIStoppedOnly()
 	{
 		this.Text = "UIStoppedOnly";
+		this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
 		this.MaximizeBox = false;
 		this.Load += LoadHandler;
 	}
